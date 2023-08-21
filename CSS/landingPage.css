@@ -1,0 +1,576 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+@media (min-width: 576px) {
+    body{
+        max-width: 540px;
+    }
+}
+body{
+    width: 1920px;
+    height: 5096px;
+    overflow-x: hidden;   
+}
+.fontSize{
+    font-size: 80px;
+}
+
+.fontfamily{
+    font-family: 'Qwigley', cursive;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftHeading{
+    top: 11px;
+    left: 169px;
+    position: absolute;
+}
+
+#Topbaraddress{
+    position: absolute;
+    top: 30px;
+    left: 450.5px;
+    gap: 12px;
+}
+
+.fa-magnifying-glass{
+    position: absolute;
+    top: 50px;
+    left: 1250px;
+}
+
+.searchaddress[type=text] {
+    position: absolute;
+    top: 37px;
+    left: 1280px;
+    width: 160px;
+    box-sizing: border-box;
+    border: 0px solid #f7bf06;
+    font-size: 16px;
+    background-color: white;
+    background-repeat: no-repeat;
+}
+.searchaddress[type=text]:focus {
+    width: 7.5%;
+  }
+
+ /* ---------LoginButton--------- */
+
+ .button{
+    position: relative;
+    top: -1px;
+    left: -0px;
+    width: 118px;
+    height: 46px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 172, 13, 1);
+    background: rgb(255, 255, 255);
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .button:after {
+    content: "";
+    background: rgba(255, 172, 13, 1);
+    display: block;
+    position: absolute;
+    padding-top: 200%;
+    padding-left: 150%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  .button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+/* -----------Yellow layer------------- */
+.Box1{
+    position: absolute;
+    top:10px;
+    width: 1920px;
+    height: 632px;
+    top: 101px;
+    left: 1px;
+    background-color: rgba(253, 190, 53, 1)
+}
+.heading1{
+    font-size: 88px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    line-height: 88px;
+    letter-spacing: 0em;
+    position: absolute;
+    top: 150px;
+    left: 180px;
+
+}
+.heading2{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 88px;
+    letter-spacing: 0em;
+    position: absolute;
+    top: 220px;
+    left: 180px;
+}
+.Box2{
+width: 856px;
+height: 86px;
+padding: 24px;
+gap: 8px;
+background-color: rgba(255, 255, 255, 1);
+position: absolute;
+top: 300px;
+left: 180px;
+display: flex;
+}
+
+.bikebox{
+    width: 148px;
+    height: 38px;
+    padding: 10px 24px 10px 24px;
+    border-radius: 8px;
+    gap: 10px;
+    background-color: rgba(241, 114, 40, 0.1);
+    color: #f27a18;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.pickupbox{
+    width: 148px;
+    height: 38px;
+    padding: 5px 24px 10px 24px;
+    gap: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.Box3{
+    width: 856px;
+    height: 86px;
+    padding: 24px;
+    gap: 8px;
+    background-color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 386.55px;
+    left: 180px;
+    display: flex;
+}
+.fa-location-dot{
+    position: relative ;
+    left: 1px;
+}
+.searchbox > input{
+    width:  593px;
+    height:  49px;
+    padding: 1px 0px 8px 16px;
+    border-radius: 8px;
+    background: rgba(245, 245, 245, 1);
+    border: 0px;
+}
+.addressicon{
+    position: absolute ;
+    top:40px;
+    left: 670px;
+}
+
+.findFood{
+    width: 190px;
+    height: 45px;
+    border-radius: 8px;
+    border: 0px;
+    background: linear-gradient(95.71deg, #FF7A7A -39.64%, #F75900 135.31%);
+    font-size: 18px;
+    color: white;
+}
+.findFood:hover {
+    box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translate(0px, -10px) scale(1.2);
+            transform: translate(0px, -10px) scale(1.2);
+  }
+.bananaleaf{
+    position: absolute;
+    width: 524px;
+    height: 424px;
+    left: 1020px;
+    top: -300px;
+    filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.25));
+    
+}
+.firstrow{
+    position: absolute;
+    top: 720px;
+    left: 180px;
+    width: 100%;
+    height: 10%;
+}
+.col-md-2{
+    position: absolute;
+    left: 370px;
+}
+.col-md-3{
+    position: absolute;
+    left: 740px;
+}
+.col-md-4{
+    position: absolute;
+    left: 1110px;
+}
+.mins30{
+    width:183px;
+    height:42px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 8px;
+    background-color: rgba(241, 114, 40, 0.1);
+    color: #f27a18;
+    font-weight: bold;
+    cursor: pointer;
+} 
+.mins30:hover{
+    background-color: #f6f8f8;
+    transition: .4s;
+    background-position: 0s;
+}
+.heading3{
+    position: relative;
+    top: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+.heading4{
+    position: absolute;
+    top: 1303px;
+    left: 799px;
+    font-family: Source Sans Pro;
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    color: rgba(241, 114, 40, 1);
+}
+.Box4{
+    position: absolute;
+    width: 1396px;
+    height: 239px;
+    top: 1399px;
+    left: 266px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 27px 11px rgba(255, 181, 21, 0.1);
+    font-size: 35px;
+    font-weight: 700;    
+
+}
+.Box4{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.text1{
+   position: absolute;
+   color:rgba(241, 114, 40, 1); ;
+}
+.verticalline1{
+    position: absolute;
+    left: 550px;
+} 
+.verticalline2{
+    position: absolute;
+    left: 950px;
+}
+.move:hover{
+    transform: translateY(-10px);
+}
+.Box5{
+    
+    position: absolute;
+    top:1937px;
+    width: 1920px;
+    height: 604px;
+    background-color: rgba(246, 245, 238, 1)
+    
+}
+.heading5{
+    position: absolute;
+    top: 80px;
+    left: 219px;
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.SearchFood{
+    width: 1920px;
+    height: 604px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 210px;
+    padding-top: 350px;
+}
+#Foodname{
+    position: relative;
+    left: 60px;
+    padding: 20px;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.Box6{
+    position: relative;
+    width: 407px;
+    height: 292px;
+    top: 2726px;
+    left: 276px;
+    gap: 19px;
+}
+.heading6{
+    width: 407px;
+    height: 96px;
+    font-family: Source Sans Pro;
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.para1{
+    position: relative;
+    top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.ProceedBtn{
+    width: 407px;
+    height:60px;
+    border: 0px;
+    border-radius: 8px;
+    color: #f6f8f8;
+    font-size: 18PX;
+    background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);
+    box-shadow: 0px 5px 8px 0px rgba(222, 151, 0, 0.24);
+
+}
+.ProceedBtn:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 100;
+    right: 130px;
+    transition: 0.5s;
+}  
+.ProceedBtn:hover{
+    padding-right: 25px;
+    color: rgb(68, 7, 235);
+}
+.ProceedBtn:hover:after {
+    opacity: 1;
+    right: 0;
+}
+.Bananaleaf2{
+    position: absolute;
+    width: 961px;
+    height: 512px;
+    top: 2650px;
+    left: 739px;
+    border-radius: 20px;
+}
+
+.heading7{
+    position: absolute;
+    top: 3312px;
+    left: 827px;
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.PopularItems{
+    position: absolute;
+    top: 3512px;
+    left: 10px;
+}
+.secondrow{
+    padding-left: 150px;
+}
+.Itemname1{
+   display: flex;
+   padding-left: 150px;
+   padding-top: 20px;
+   justify-content: space-around;
+   font-size: 22px;
+   font-weight: 700;
+}
+.Itembtn{
+    display: flex;
+    padding-left: 150px;
+    padding-top: 20px;
+    justify-content: space-around;
+}
+.Itembtn1{
+    width: 283px;
+    height: 60px;
+    border-radius: 8px;
+    border: 0px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(241, 114, 40, 1);
+    box-shadow: 0px 20px 40px 0px rgba(250, 99, 35, 0.24);
+    box-shadow: 0px 5px 10px 0px rgba(253, 114, 92, 0.22);
+}
+
+.Itembtn1:active {
+  box-shadow: 0 5px rgb(248, 232, 2);
+  transform: translateY(4px);
+}
+
+.thirdrow{
+    padding-left: 150px;
+    padding-top: 150px;
+}
+
+.Itemname2{
+    display: flex;
+    padding-left: 100px;
+    padding-top: 20px;
+    justify-content: space-around;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+}
+.Itemname2 > .PorivelenguOrundai{
+    position: relative;
+    left:-45px;
+}
+.Itemname2 > .Jangri{
+    position: relative;
+    left:-100px;
+}
+.Itemname2 > .Jangri{
+    position: relative;
+    left:-100px;
+}
+.Itemname2 > .lattu{
+    position: relative;
+    left:-60px;
+}
+.Itembtn2{
+    display: flex;
+    padding-left: 150px;
+    padding-top: 20px;
+    justify-content: space-around;
+}
+.Box7{
+    width: 1920px;
+    height: 576px;
+    position: relative;
+    top: 4320px;
+    background: rgba(9, 13, 18, 1);
+}
+.Hline{
+    width: 1480px;
+    position: relative;
+    top: 60px;
+    left: 220px;
+    border: 2px;
+}
+.CCL{
+    display: flex;
+    width: 514px;
+    position: absolute;
+    left: 220px;
+    top:110px;
+    justify-content: space-between;
+}
+.CCL1{
+    position: relative;
+    top: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    Line-height:38px;
+    color: rgba(245, 245, 245, 1);  
+}
+.Follow{
+    position: absolute;
+    left: 1200px;
+    top:110px;  
+}
+.Socialicon{
+    display: flex;
+    width:101px ;
+    justify-content: space-between;
+    font-size: 34px;
+    position: absolute;
+    left: 1200px;
+    top:150px;
+    opacity: 31%;
+    cursor: pointer;
+}
+.Mail{
+    position: absolute;
+    left: 1200px;
+    top:250px; 
+    color:rgba(187, 187, 187, 1);
+}
+.fa-envelope{
+    position: relative;
+    left: 1210px;
+    top:350px;
+    font-size: 24px !important;
+}
+.emailbox > input{
+    width: 334px;
+    height: 60px;
+    position: absolute;
+    left: 1200px;
+    top:350px;
+    padding: 7px 0px 8px 36px;
+    border-radius: 8px;
+    color: #f6f8f8;
+    background: rgba(66, 66, 66, 1);
+    border: 0px;
+}
+.Subscribebtn{
+    width: 133px;
+    height:  60px;
+    position: absolute;
+    left: 1550px;
+    top:350px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #f6f8f8;
+    background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);
+    box-shadow: 0px 14px 32px 0px rgba(255, 178, 14, 0.29);
+    transition: .3s;
+}
+.Subscribebtn:hover{
+    box-shadow: 8px 8px #FF8A00;
+    transition: .3s;
+}
+.Hlineend{
+    width: 1480px;
+    position: relative;
+    top: 420px;
+    left: 220px;
+    border: 2px;
+}
+.endflex{
+    display: flex;
+    position: absolute;
+    top: 520px;
+    left: 220px;
+    width: 1480px;
+    justify-content: space-between;
+}
